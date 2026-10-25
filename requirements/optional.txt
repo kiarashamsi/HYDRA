@@ -1,0 +1,5 @@
+# Auxiliary DOS data preparation / anomaly detection utilities only.
+# Versions were not recorded in the supplied environment.
+hdf5storage
+sparse
+rrcf
