@@ -6,7 +6,6 @@
 <p align="center">Learn across networks. Predict multiple properties. Transfer to unseen graphs.</p>
 <p align="center">
   <a href="#overview">Overview</a> ·
-  <a href="#results">Results</a> ·
   <a href="#installation">Installation</a> ·
   <a href="#data-and-configuration">Data &amp; configuration</a> ·
   <a href="#training-and-evaluation">Run Hydra</a>
