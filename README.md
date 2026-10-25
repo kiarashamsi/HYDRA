@@ -32,18 +32,6 @@ This repository contains the research implementation, classification and regress
 
 The paper studies growth/shrinkage of edges, nodes, and the largest connected component, alongside regression of edge count, new nodes, and influential nodes.
 
-## Results
-
-The supplied manuscript reports an **8.9% relative AUC gain** over the strongest classification competitor, and the best regression results on two of three tasks, with an **8.2% relative MAE gain** over the second best.
-
-<p align="center">
-  <img src="docs/assets/training-cost.png" alt="Log-scale training time comparison between Hydra and MiNT as training networks increase" width="680">
-</p>
-
-**Training cost across three classification tasks.** Hydra trains jointly; MiNT is trained separately for each task. The dashed segment holds Hydra's 32-network training cost constant for comparison with MiNT at 64 networks. The annotated 22× comparison is therefore **Hydra-32 versus MiNT-64**, not a measured Hydra-64 training run. [Vector plot](docs/assets/training-cost.pdf).
-
-Figures are rendered directly from the supplied paper sources; see [asset provenance](docs/assets/README.md). Results above describe the paper, not a new benchmark run of this release.
-
 ## Installation
 
 Use a dedicated **Python 3.10** environment as a starting point for the supplied dependency versions. This cleanup preserves the recorded runtime pins; it does not upgrade the experimental stack. Installation and training have not been validated end to end in a fresh environment.
